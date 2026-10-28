@@ -1,0 +1,929 @@
+[
+  {
+    "id": "carp",
+    "names": { "en": "Carp" },
+    "translations": {
+      "en": {
+        "description": "Two different fish under one name. Small and medium carp move in a tight shoal, feed in competition and grab first; a big carp keeps alone or in a small group, follows its own daily route and inspects a spot before settling on it. Who you go for sets both the bait size and the baiting plan. Carp have no miracle scent: smell is only a marker. If no food value stands behind it, the fish quickly links that smell with danger and avoids it.",
+        "baits": {
+          "cold": [
+            "Bloodworm",
+            "Maggot",
+            "Dung worm",
+            "Boilie with alcohol-based flavour"
+          ],
+          "warm": [
+            "Sweetcorn",
+            "HNV boilie, 30–40 % protein",
+            "Peas",
+            "Paste",
+            "Tiger nut"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Minimal baiting, dark colour, spicy or meaty flavour, add bloodworm. Oily flavours lock inside the bait in cold water — the solvent must be alcohol or propylene glycol, or there is no signal at all. On a silty bottom butyric acid helps: it changes the pH around the bait.",
+          "warm": "Heavy baiting with a coarse fraction (corn, pellets), fruity and sweet flavours. Keep protein at 30–40 %: less and the table will not hold the fish through a long baiting, more and it overloads the liver. Carp detect betaine, soluble fish protein (CPSP-90) and seafood extracts with receptors on whiskers and lips; enzymes and bird seed speed digestion — the fish is hungry again sooner."
+        }
+      }
+    },
+    "axes": { "thermal_guild": "WARM", "trophic": "OMNIVORE", "sense": "CHEMO", "diel": "DAY", "habitat": "LENTIC", "winter": "LOW" },
+    "name": "Карп / Сазан",
+    "description": "Две разные рыбы под одним именем. Мелкий и средний карп ходит плотной стаей, кормится наперегонки и хватает первым; крупный держится одиночкой или малой группой, ходит своим суточным маршрутом и осматривает точку прежде, чем сесть за неё. От того, за кем едешь, зависит и размер насадки, и схема закорма. Чудо-аромата у карпа нет: запах — только метка. Если за ней не стоит пищевая ценность, рыба быстро связывает этот запах с опасностью и обходит его.",
+    "temp": {
+      "opt_min": 20.0,
+      "opt_max": 27.0,
+      "abs_min": 5.0,
+      "abs_max": 32.0
+    },
+    "pressure": {
+      "min_mmHg": 740,
+      "max_mmHg": 755,
+      "max_drop_mmhg": 12,
+      "max_rise_mmhg": 10,
+      "pressure_recovery_hours": 2
+    },
+    "oxygen": {
+      "comfort_mg_l": 5.0,
+      "critical_mg_l": 2.5
+    },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 14.0,
+    "season": { "spawn_temp_min": 18.0, "spawn_temp_max": 22.0, "feed_start_c": 10.0, "post_spawn_recovery_days": 10 },
+    "guild": "peaceful",
+    "light_activity": { "night": 0.7, "dawn": 1.0, "morning": 0.9, "day": 0.5, "evening": 0.9, "dusk": 1.0 },
+    "preferred_structures": [
+      "gravel_silt_edge",
+      "drop_off",
+      "flooded_channel",
+      "shell_bed",
+      "reeds",
+      "bay",
+      "snags",
+      "windward_shore"
+    ],
+    "baits": {
+      "cold": ["Мотыль", "Опарыш", "Навозный червь", "Бойл на спиртовой ароматике"],
+      "warm": ["Кукуруза", "Бойл HNV, 30–40 % белка", "Горох", "Тесто", "Тигровый орех"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "low",
+        "fraction": "fine",
+        "sweetness": "none",
+        "flavor_profile": "spicy_salty",
+        "notes": "Минимальный закорм, тёмный цвет, пряный или мясной аромат, добавить мотыля. Масляная ароматика в холодной воде запирается внутри насадки — растворитель нужен на спирту или пропиленгликоле, иначе сигнала не будет вовсе. По заиленному дну выручает маслянокислая кислота: она меняет pH вокруг насадки"
+      },
+      "warm": {
+        "volume": "high",
+        "fraction": "coarse",
+        "sweetness": "high",
+        "flavor_profile": "sweet_fruity",
+        "notes": "Обильный закорм крупной фракцией (кукуруза, пеллетс), фруктовые и сладкие ароматизаторы. Держать 30–40 % белка: меньше — стол не удержит рыбу на долгом закорме, больше — перегружает печень. Бетаин, растворимый рыбный протеин (CPSP-90) и вытяжки из морепродуктов карп ловит рецепторами на усах и губах; ферменты и птичий корм ускоряют усвоение — рыба быстрее снова голодна"
+      }
+    }
+  },
+  {
+    "id": "crucian",
+    "names": { "en": "Crucian carp" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Bloodworm",
+            "Maggot",
+            "Worm"
+          ],
+          "warm": [
+            "Semolina mash",
+            "Pearl barley",
+            "Bread crumb",
+            "Garlic paste",
+            "Maggot"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Fine dusty mix with garlic or dill, small portions",
+          "warm": "Medium fraction, sweet flavour (vanilla, honey, sponge cake), add millet"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "WARM", "trophic": "OMNIVORE", "sense": "CHEMO", "diel": "DAY", "habitat": "LENTIC", "winter": "TORPID" },
+    "name": "Карась",
+    "temp": {
+      "opt_min": 16.0,
+      "opt_max": 26.0,
+      "abs_min": 1.0,
+      "abs_max": 30.0
+    },
+    "pressure": {
+      "min_mmHg": 742,
+      "max_mmHg": 758,
+      "max_drop_mmhg": 14,
+      "max_rise_mmhg": 12,
+      "pressure_recovery_hours": 2
+    },
+    "oxygen": {
+      "comfort_mg_l": 3.0,
+      "critical_mg_l": 0.5
+    },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 13.0,
+    "season": { "spawn_temp_min": 17.0, "spawn_temp_max": 20.0, "feed_start_c": 8.0, "post_spawn_recovery_days": 7 },
+    "guild": "peaceful",
+    "light_activity": { "night": 0.5, "dawn": 1.0, "morning": 0.9, "day": 0.6, "evening": 0.9, "dusk": 0.9 },
+    "preferred_structures": ["bay", "reeds", "foam_line"],
+    "baits": {
+      "cold": ["Мотыль", "Опарыш", "Червь"],
+      "warm": ["Манная болтушка", "Перловка", "Хлебный мякиш", "Чесночное тесто", "Опарыш"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "low",
+        "fraction": "fine",
+        "sweetness": "low",
+        "flavor_profile": "garlic_hemp",
+        "notes": "Мелкофракционная пылящая смесь с чесноком или укропом, малые порции"
+      },
+      "warm": {
+        "volume": "medium",
+        "fraction": "medium",
+        "sweetness": "medium",
+        "flavor_profile": "vanilla_honey",
+        "notes": "Средняя фракция, сладкий аромат (ваниль, мед, бисквит), добавление пшена"
+      }
+    }
+  },
+  {
+    "id": "bream",
+    "names": { "en": "Bream" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Bloodworm (bunch)",
+            "Maggot",
+            "Worm"
+          ],
+          "warm": [
+            "Maggot + corn",
+            "Pea paste",
+            "Pearl barley",
+            "Bunch of worms"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Dark fine groundbait, coriander or cinnamon, live bloodworm is a must",
+          "warm": "Heavy, inert (non-dusting) mix, coarse fraction (peas, millet), sweet bream flavours"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COOL", "trophic": "BENTHIVORE", "sense": "CHEMO", "diel": "CREPUSCULAR", "habitat": "LENTIC", "winter": "LOW" },
+    "name": "Лещ",
+    "temp": {
+      "opt_min": 16.0,
+      "opt_max": 26.0,
+      "abs_min": 4.0,
+      "abs_max": 30.0
+    },
+    "pressure": {
+      "min_mmHg": 745,
+      "max_mmHg": 758,
+      "max_drop_mmhg": 10,
+      "max_rise_mmhg": 8,
+      "pressure_recovery_hours": 3
+    },
+    "oxygen": {
+      "comfort_mg_l": 5.0,
+      "critical_mg_l": 3.0
+    },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 12.0,
+    "season": { "spawn_temp_min": 12.0, "spawn_temp_max": 20.0, "feed_start_c": 8.0, "post_spawn_recovery_days": 10 },
+    "guild": "peaceful",
+    "light_activity": { "night": 0.9, "dawn": 1.0, "morning": 0.7, "day": 0.4, "evening": 0.8, "dusk": 1.0 },
+    "preferred_structures": ["drop_off", "bay", "inflow"],
+    "baits": {
+      "cold": ["Мотыль (пучок)", "Опарыш", "Червь"],
+      "warm": ["Опарыш + кукуруза", "Гороховая мастырка", "Перловка", "Пучок червей"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "low",
+        "fraction": "fine",
+        "sweetness": "none",
+        "flavor_profile": "coriander_spicy",
+        "notes": "Темная мелкофракционная прикормка, кориандр/корица, обязателен кормовой мотыль"
+      },
+      "warm": {
+        "volume": "high",
+        "fraction": "coarse",
+        "sweetness": "high",
+        "flavor_profile": "caramel_vanilla",
+        "notes": "Heavy-смесь, инертная (не пылящая), крупная фракция (горох, пшено), сладкие лещевые ароматизаторы"
+      }
+    }
+  },
+  {
+    "id": "roach",
+    "names": { "en": "Roach" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Bloodworm",
+            "Maggot"
+          ],
+          "warm": [
+            "Paste",
+            "Pearl barley",
+            "Mulberry (leaf)",
+            "Maggot",
+            "Hemp"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Strongly dusting dark groundbait, small amount, add small bloodworm",
+          "warm": "Dusting light groundbait, roasted hemp, sponge cake, anise"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COOL", "trophic": "OMNIVORE", "sense": "MIXED", "diel": "DAY", "habitat": "RIVER", "winter": "ACTIVE" },
+    "name": "Плотва",
+    "temp": {
+      "opt_min": 12.0,
+      "opt_max": 24.0,
+      "abs_min": 1.0,
+      "abs_max": 28.0
+    },
+    "pressure": {
+      "min_mmHg": 745,
+      "max_mmHg": 760,
+      "max_drop_mmhg": 10,
+      "max_rise_mmhg": 8,
+      "pressure_recovery_hours": 2
+    },
+    "oxygen": {
+      "comfort_mg_l": 5.0,
+      "critical_mg_l": 3.0
+    },
+    "default_horizon": "midwater",
+    "cold_temp_threshold": 10.0,
+    "season": { "spawn_temp_min": 12.0, "spawn_temp_max": 15.0, "feed_start_c": 4.0, "post_spawn_recovery_days": 7 },
+    "guild": "peaceful",
+    "light_activity": { "night": 0.2, "dawn": 0.9, "morning": 1.0, "day": 0.8, "evening": 0.9, "dusk": 0.7 },
+    "preferred_structures": ["reeds", "foam_line", "bay"],
+    "baits": {
+      "cold": ["Мотыль", "Опарыш"],
+      "warm": ["Тесто", "Перловка", "Шелковица (зелень)", "Опарыш", "Конопля"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "low",
+        "fraction": "ultra_fine",
+        "sweetness": "none",
+        "flavor_profile": "anis_hemp",
+        "notes": "Активно пылящая темная прикормка, малый объем, добавление мелкого мотыля"
+      },
+      "warm": {
+        "volume": "medium",
+        "fraction": "fine_medium",
+        "sweetness": "medium",
+        "flavor_profile": "chocolate_anis",
+        "notes": "Пылящая легкая прикормка, жареная конопля, бисквит, анис"
+      }
+    }
+  },
+  {
+    "id": "perch",
+    "names": { "en": "Perch" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Bloodworm",
+            "Leech",
+            "Small livebait",
+            "Micro jig (silicone 1.5–2\")"
+          ],
+          "warm": [
+            "Worm",
+            "Livebait",
+            "Spinners",
+            "Tail spinners",
+            "Silicone"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Ground bait with live bloodworm and dried blood or fish meal",
+          "warm": "Make a cloud with chopped worm or maggot; no plant baiting"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COOL", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "DAY", "habitat": "LENTIC", "winter": "ACTIVE" },
+    "name": "Окунь",
+    "temp": {
+      "opt_min": 16.0,
+      "opt_max": 24.0,
+      "abs_min": 1.0,
+      "abs_max": 28.0
+    },
+    "pressure": {
+      "min_mmHg": 748,
+      "max_mmHg": 762,
+      "max_drop_mmhg": 8,
+      "max_rise_mmhg": 6,
+      "pressure_recovery_hours": 12
+    },
+    "oxygen": {
+      "comfort_mg_l": 5.5,
+      "critical_mg_l": 3.0
+    },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 11.0,
+    "season": { "spawn_temp_min": 12.0, "spawn_temp_max": 14.0, "feed_start_c": 4.0, "post_spawn_recovery_days": 7 },
+    "guild": "predator",
+    "light_activity": { "night": 0.1, "dawn": 1.0, "morning": 0.9, "day": 0.7, "evening": 0.9, "dusk": 0.9 },
+    "preferred_structures": ["snags", "hump", "drop_off", "bridge_piles"],
+    "baits": {
+      "cold": ["Мотыль", "Пиявка", "Мелкий живец", "Микроджиг (силикон 1.5-2\")"],
+      "warm": ["Червь", "Живец", "Вращающиеся блесны", "Тейл-спиннеры", "Силикон"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "low",
+        "fraction": "fine",
+        "sweetness": "none",
+        "flavor_profile": "blood_fishmeal",
+        "notes": "Грунт с кормовым мотылем и сухой кровью/рыбной мукой"
+      },
+      "warm": {
+        "volume": "low",
+        "fraction": "fine",
+        "sweetness": "none",
+        "flavor_profile": "fishmeal",
+        "notes": "Создание мути с рубленым червем или опарышем; растительная кормежка не используется"
+      }
+    }
+  },
+  {
+    "id": "pike",
+    "names": { "en": "Pike" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Livebait (crucian, roach)",
+            "Large silicone (slow roll)",
+            "Spoons"
+          ],
+          "warm": [
+            "Livebait",
+            "Minnow plugs",
+            "Poppers",
+            "Spinnerbaits",
+            "Silicone"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "No groundbait. Fish attractants may be used on the lure",
+          "warm": "Groundbait is not used"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COOL", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "DAY", "habitat": "LENTIC", "winter": "ACTIVE" },
+    "name": "Щука",
+    "temp": {
+      "opt_min": 14.0,
+      "opt_max": 21.0,
+      "abs_min": 0.0,
+      "abs_max": 26.0
+    },
+    "pressure": {
+      "min_mmHg": 738,
+      "max_mmHg": 752,
+      "max_drop_mmhg": 10,
+      "max_rise_mmhg": 8,
+      "pressure_recovery_hours": 4
+    },
+    "oxygen": {
+      "comfort_mg_l": 6.0,
+      "critical_mg_l": 4.0
+    },
+    "default_horizon": "midwater",
+    "cold_temp_threshold": 10.0,
+    "season": { "spawn_temp_min": 4.0, "spawn_temp_max": 10.0, "feed_start_c": 2.0, "post_spawn_recovery_days": 14 },
+    "guild": "predator",
+    "light_activity": { "night": 0.2, "dawn": 1.0, "morning": 0.8, "day": 0.6, "evening": 0.9, "dusk": 1.0 },
+    "preferred_structures": ["snags", "reeds", "point", "outflow"],
+    "baits": {
+      "cold": ["Живец (карась, плотва)", "Крупный силикон (slow roll)", "Колеблющиеся блесны"],
+      "warm": ["Живец", "Воблеры minnow", "Попперы", "Спиннербейты", "Силикон"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "none",
+        "fraction": "none",
+        "sweetness": "none",
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется. Возможно использование рыбных аттрактантов на приманку"
+      },
+      "warm": {
+        "volume": "none",
+        "fraction": "none",
+        "sweetness": "none",
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
+      }
+    }
+  },
+  {
+    "id": "zander",
+    "names": { "en": "Zander" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Slim livebait (bleak, gudgeon)",
+            "Foam fish",
+            "Mandula",
+            "Silicone 3–4\""
+          ],
+          "warm": [
+            "Livebait",
+            "Plugs (night run)",
+            "Jig (silicone)",
+            "Slim vertical jigs"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Groundbait is not used",
+          "warm": "Groundbait is not used"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COOL", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "CREPUSCULAR", "habitat": "RIVER", "winter": "ACTIVE" },
+    "name": "Судак",
+    "temp": {
+      "opt_min": 18.0,
+      "opt_max": 26.0,
+      "abs_min": 2.0,
+      "abs_max": 30.0
+    },
+    "pressure": {
+      "min_mmHg": 745,
+      "max_mmHg": 760,
+      "max_drop_mmhg": 7,
+      "max_rise_mmhg": 6,
+      "pressure_recovery_hours": 14
+    },
+    "oxygen": {
+      "comfort_mg_l": 7.0,
+      "critical_mg_l": 4.0
+    },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 12.0,
+    "season": { "spawn_temp_min": 10.0, "spawn_temp_max": 14.0, "feed_start_c": 4.0, "post_spawn_recovery_days": 12 },
+    "guild": "predator",
+    "light_activity": { "night": 0.9, "dawn": 1.0, "morning": 0.6, "day": 0.3, "evening": 0.8, "dusk": 1.0 },
+    "preferred_structures": ["drop_off", "hump", "snags", "steep_bank"],
+    "baits": {
+      "cold": ["Узкий живец (уклейка, пескарь)", "Поролоновые рыбки", "Мандула", "Силикон 3-4\""],
+      "warm": ["Живец", "Воблеры (ночной проход)", "Джиг (силикон)", "Узкие пилькеры"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "none",
+        "fraction": "none",
+        "sweetness": "none",
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
+      },
+      "warm": {
+        "volume": "none",
+        "fraction": "none",
+        "sweetness": "none",
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
+      }
+    }
+  },
+  {
+    "id": "grass_carp",
+    "names": { "en": "Grass carp" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Bloodworm",
+            "Maggot",
+            "Worm"
+          ],
+          "warm": [
+            "Young reed",
+            "Cucumber leaf",
+            "Sweetcorn (floating)",
+            "Technoplankton",
+            "Peas"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Hardly feeds once the water cools below 15 °C",
+          "warm": "Huge amount of groundbait with a tall dusting column (alfalfa, grass meal, boiled corn)"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "WARM", "trophic": "OMNIVORE", "sense": "MIXED", "diel": "DAY", "habitat": "LENTIC", "winter": "TORPID" },
+    "name": "Белый амур",
+    "temp": {
+      "opt_min": 22.0,
+      "opt_max": 28.0,
+      "abs_min": 8.0,
+      "abs_max": 34.0
+    },
+    "pressure": {
+      "min_mmHg": 745,
+      "max_mmHg": 758,
+      "max_drop_mmhg": 10,
+      "max_rise_mmhg": 8,
+      "pressure_recovery_hours": 3
+    },
+    "oxygen": {
+      "comfort_mg_l": 5.0,
+      "critical_mg_l": 3.0
+    },
+    "default_horizon": "surface",
+    "cold_temp_threshold": 18.0,
+    "season": { "spawn_temp_min": 20.0, "spawn_temp_max": 24.0, "feed_start_c": 12.0, "post_spawn_recovery_days": 10 },
+    "guild": "peaceful",
+    "light_activity": { "night": 0.4, "dawn": 0.8, "morning": 1.0, "day": 0.9, "evening": 0.8, "dusk": 0.6 },
+    "preferred_structures": ["reeds", "bay"],
+    "baits": {
+      "cold": ["Мотыль", "Опарыш", "Червь"],
+      "warm": ["Молодой камыш", "Лист огурца", "Кукуруза (плавающая)", "Технопланктон", "Горох"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "low",
+        "fraction": "fine",
+        "sweetness": "low",
+        "flavor_profile": "herbal",
+        "notes": "Практически не питается при остывании воды ниже 15°C"
+      },
+      "warm": {
+        "volume": "high",
+        "fraction": "coarse",
+        "sweetness": "medium",
+        "flavor_profile": "grass_sweetcorn",
+        "notes": "Огромный объем прикормки с высокой столбчатой пылимостью (люцерна, травяная мука, разваренная кукуруза)"
+      }
+    }
+  },
+  {
+    "id": "catfish",
+    "names": { "en": "Wels catfish" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Bunch of nightcrawlers",
+            "Livebait"
+          ],
+          "warm": [
+            "Bunch of nightcrawlers",
+            "Roast poultry",
+            "Leeches",
+            "Liver",
+            "Large livebait",
+            "Quok baits"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Groundbait is not used",
+          "warm": "Bait with a quok and aromatic sticky feeders (chopped offal or blood)"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "WARM", "trophic": "PREDATOR", "sense": "CHEMO", "diel": "NIGHT", "habitat": "RIVER", "winter": "TORPID" },
+    "name": "Сом европейский",
+    "temp": {
+      "opt_min": 23.0,
+      "opt_max": 28.0,
+      "abs_min": 8.0,
+      "abs_max": 32.0
+    },
+    "pressure": {
+      "min_mmHg": 740,
+      "max_mmHg": 752,
+      "max_drop_mmhg": 10,
+      "max_rise_mmhg": 8,
+      "pressure_recovery_hours": 4
+    },
+    "oxygen": {
+      "comfort_mg_l": 5.5,
+      "critical_mg_l": 3.0
+    },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 14.0,
+    "season": { "spawn_temp_min": 17.0, "spawn_temp_max": 20.0, "feed_start_c": 12.0, "post_spawn_recovery_days": 12 },
+    "guild": "predator",
+    "light_activity": { "night": 1.0, "dawn": 0.8, "morning": 0.4, "day": 0.3, "evening": 0.7, "dusk": 0.9 },
+    "preferred_structures": ["snags", "drop_off", "bridge_piles"],
+    "baits": {
+      "cold": ["Пучок выползков", "Живец"],
+      "warm": ["Пучок выползков", "Жареная птица", "Пиявки", "Печень", "Крупный живец", "Квок-приманки"]
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "none",
+        "fraction": "none",
+        "sweetness": "none",
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
+      },
+      "warm": {
+        "volume": "low",
+        "fraction": "coarse",
+        "sweetness": "none",
+        "flavor_profile": "liver_smell",
+        "notes": "Прикармливание квоком и ароматическими клейкими кормушками (рубленая потроша/кровь)"
+      }
+    }
+  },
+  {
+    "id": "burbot",
+    "names": { "en": "Burbot" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Nightcrawler",
+            "Bunch of small worms",
+            "Cut fish (ruffe, roach)",
+            "Small frog",
+            "Piece of liver"
+          ],
+          "warm": []
+        },
+        "groundbait_notes": {
+          "cold": "Feeders with minced fresh fish or dried blood near the bottom in cold weather",
+          "warm": "The fish is inactive"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COLD", "trophic": "PREDATOR", "sense": "CHEMO", "diel": "NIGHT", "habitat": "RIVER", "winter": "ACTIVE" },
+    "name": "Налим",
+    "temp": {
+      "opt_min": 2.0,
+      "opt_max": 14.0,
+      "abs_min": 0.0,
+      "abs_max": 22.0
+    },
+    "pressure": {
+      "min_mmHg": 740,
+      "max_mmHg": 760,
+      "max_drop_mmhg": 8,
+      "max_rise_mmhg": 8,
+      "pressure_recovery_hours": 18
+    },
+    "oxygen": {
+      "comfort_mg_l": 6.0,
+      "critical_mg_l": 4.0
+    },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 12.0,
+    "season": { "spawn_temp_min": 1.0, "spawn_temp_max": 4.0, "dormant_above_c": 15.0, "post_spawn_recovery_days": 10 },
+    "guild": "predator",
+    "light_activity": { "night": 1.0, "dawn": 0.6, "morning": 0.3, "day": 0.2, "evening": 0.5, "dusk": 0.8 },
+    "preferred_structures": ["spring", "steep_bank", "snags", "inflow"],
+    "baits": {
+      "cold": ["Выползок", "Пучок мелких червей", "Резаная рыбка (ерш, плотва)", "Лягушонок", "Кусочек печени"],
+      "warm": []
+    },
+    "groundbait_rules": {
+      "cold": {
+        "volume": "low",
+        "fraction": "coarse",
+        "sweetness": "none",
+        "flavor_profile": "fish_blood",
+        "notes": "Кормушки с фаршем из свежей рыбы или сухой кровью у дна в холодную погоду"
+      },
+      "warm": {
+        "volume": "none",
+        "fraction": "none",
+        "sweetness": "none",
+        "flavor_profile": "none",
+        "notes": "Рыба неактивна"
+      }
+    }
+  },
+  {
+    "id": "flounder",
+    "names": { "en": "Flounder" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Sea worm (ragworm)",
+            "Mussel"
+          ],
+          "warm": [
+            "Sea worm (ragworm)",
+            "Mussel",
+            "Piece of squid",
+            "Cut fish"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Groundbait is not used",
+          "warm": "Groundbait is not used"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COOL", "trophic": "BENTHIVORE", "sense": "MIXED", "diel": "CREPUSCULAR", "habitat": "ESTUARY", "winter": "LOW" },
+    "name": "Камбала",
+    "temp": { "opt_min": 12.0, "opt_max": 20.0, "abs_min": 0.0, "abs_max": 25.0 },
+    "pressure": { "min_mmHg": 745, "max_mmHg": 760, "max_drop_mmhg": 8, "max_rise_mmhg": 8, "pressure_recovery_hours": 8 },
+    "oxygen": { "comfort_mg_l": 6.0, "critical_mg_l": 2.0 },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 5.0,
+    "season": { "spawn_temp_min": 2.0, "spawn_temp_max": 6.0, "feed_start_c": 4.0, "post_spawn_recovery_days": 10 },
+    "guild": "predator",
+    "light_activity": { "night": 0.3, "dawn": 0.8, "morning": 0.7, "day": 0.7, "evening": 0.8, "dusk": 0.8 },
+    "preferred_structures": ["beach", "lagoon", "river_mouth"],
+    "baits": {
+      "cold": ["Морской червь (нереис)", "Мидия"],
+      "warm": ["Морской червь (нереис)", "Мидия", "Кусочек кальмара", "Резаная рыбка"]
+    },
+    "groundbait_rules": {
+      "cold": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" },
+      "warm": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" }
+    }
+  },
+  {
+    "id": "cod",
+    "names": { "en": "Cod" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Mussel",
+            "Sea worm",
+            "Piece of herring"
+          ],
+          "warm": [
+            "Squid",
+            "Cut herring",
+            "Mussel",
+            "Jig lure"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Groundbait is not used",
+          "warm": "Groundbait is not used"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COLD", "trophic": "PREDATOR", "sense": "MIXED", "diel": "CREPUSCULAR", "habitat": "ESTUARY", "winter": "ACTIVE" },
+    "name": "Треска",
+    "temp": { "opt_min": 4.0, "opt_max": 12.0, "abs_min": 0.0, "abs_max": 16.0 },
+    "pressure": { "min_mmHg": 742, "max_mmHg": 758, "max_drop_mmhg": 8, "max_rise_mmhg": 6, "pressure_recovery_hours": 10 },
+    "oxygen": { "comfort_mg_l": 6.0, "critical_mg_l": 2.5 },
+    "default_horizon": "bottom",
+    "cold_temp_threshold": 2.0,
+    "season": { "spawn_temp_min": 5.0, "spawn_temp_max": 10.0, "feed_start_c": 2.0, "post_spawn_recovery_days": 14 },
+    "guild": "predator",
+    "light_activity": { "night": 0.8, "dawn": 0.9, "morning": 0.5, "day": 0.4, "evening": 0.8, "dusk": 0.9 },
+    "preferred_structures": ["rocky_shore", "jetty_pier", "drop_off"],
+    "baits": {
+      "cold": ["Мидия", "Морской червь", "Кусочек сельди"],
+      "warm": ["Кальмар", "Сельдь резаная", "Мидия", "Джиг-приманка"]
+    },
+    "groundbait_rules": {
+      "cold": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" },
+      "warm": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" }
+    }
+  },
+  {
+    "id": "garfish",
+    "names": { "en": "Garfish" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [],
+          "warm": [
+            "Strip of herring or mackerel",
+            "Small fry on a rig",
+            "Small spinner"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Groundbait is not used",
+          "warm": "Groundbait is not used"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COOL", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "DAY", "habitat": "ESTUARY", "winter": "LOW" },
+    "name": "Сарган",
+    "temp": { "opt_min": 15.0, "opt_max": 20.0, "abs_min": 10.0, "abs_max": 25.0 },
+    "pressure": { "min_mmHg": 748, "max_mmHg": 762, "max_drop_mmhg": 6, "max_rise_mmhg": 6, "pressure_recovery_hours": 6 },
+    "oxygen": { "comfort_mg_l": 6.5, "critical_mg_l": 3.0 },
+    "default_horizon": "surface",
+    "cold_temp_threshold": 12.0,
+    "season": { "spawn_temp_min": 15.0, "spawn_temp_max": 20.0, "feed_start_c": 12.0, "post_spawn_recovery_days": 7 },
+    "guild": "predator",
+    "light_activity": { "night": 0.1, "dawn": 0.6, "morning": 0.8, "day": 1.0, "evening": 0.8, "dusk": 0.5 },
+    "preferred_structures": ["beach", "foam_line", "windward_shore"],
+    "baits": {
+      "cold": [],
+      "warm": ["Полоска сельди или скумбрии", "Малёк на снаряде", "Мелкая вращающаяся блесна"]
+    },
+    "groundbait_rules": {
+      "cold": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" },
+      "warm": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" }
+    }
+  },
+  {
+    "id": "sea_trout",
+    "names": { "en": "Sea trout" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Small fry (sprat, sand eel)",
+            "Spoon"
+          ],
+          "warm": [
+            "Spinner",
+            "Minnow plug",
+            "Streamer"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Groundbait is not used",
+          "warm": "Groundbait is not used"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COLD", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "CREPUSCULAR", "habitat": "ESTUARY", "winter": "ACTIVE" },
+    "name": "Кумжа",
+    "temp": { "opt_min": 8.0, "opt_max": 15.0, "abs_min": 0.0, "abs_max": 19.0 },
+    "pressure": { "min_mmHg": 740, "max_mmHg": 755, "max_drop_mmhg": 10, "max_rise_mmhg": 8, "pressure_recovery_hours": 10 },
+    "oxygen": { "comfort_mg_l": 7.0, "critical_mg_l": 4.0 },
+    "default_horizon": "midwater",
+    "cold_temp_threshold": 3.0,
+    "season": { "spawn_temp_min": 6.0, "spawn_temp_max": 10.0, "feed_start_c": 2.0, "post_spawn_recovery_days": 14 },
+    "guild": "predator",
+    "light_activity": { "night": 0.3, "dawn": 1.0, "morning": 0.7, "day": 0.4, "evening": 0.9, "dusk": 1.0 },
+    "preferred_structures": ["windward_shore", "river_mouth", "point"],
+    "baits": {
+      "cold": ["Малёк (килька, песчанка)", "Колеблющаяся блесна"],
+      "warm": ["Вращающаяся блесна", "Воблер minnow", "Стример"]
+    },
+    "groundbait_rules": {
+      "cold": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" },
+      "warm": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" }
+    }
+  },
+  {
+    "id": "baltic_salmon",
+    "names": { "en": "Baltic salmon" },
+    "translations": {
+      "en": {
+        "baits": {
+          "cold": [
+            "Small fry (sprat, sand eel)",
+            "Spoon"
+          ],
+          "warm": [
+            "Spinner",
+            "Streamer",
+            "Suspending plug"
+          ]
+        },
+        "groundbait_notes": {
+          "cold": "Groundbait is not used",
+          "warm": "Groundbait is not used"
+        }
+      }
+    },
+    "axes": { "thermal_guild": "COLD", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "CREPUSCULAR", "habitat": "ESTUARY", "winter": "ACTIVE" },
+    "name": "Балтийский лосось",
+    "temp": { "opt_min": 4.0, "opt_max": 12.0, "abs_min": 0.0, "abs_max": 16.0 },
+    "pressure": { "min_mmHg": 740, "max_mmHg": 754, "max_drop_mmhg": 9, "max_rise_mmhg": 7, "pressure_recovery_hours": 8 },
+    "oxygen": { "comfort_mg_l": 7.5, "critical_mg_l": 4.5 },
+    "default_horizon": "midwater",
+    "cold_temp_threshold": 2.0,
+    "season": { "spawn_temp_min": 4.0, "spawn_temp_max": 8.0, "feed_start_c": 2.0, "post_spawn_recovery_days": 14 },
+    "guild": "predator",
+    "light_activity": { "night": 0.3, "dawn": 0.9, "morning": 0.6, "day": 0.5, "evening": 0.8, "dusk": 0.9 },
+    "preferred_structures": ["river_mouth", "point", "windward_shore"],
+    "baits": {
+      "cold": ["Малёк (килька, песчанка)", "Колеблющаяся блесна"],
+      "warm": ["Вращающаяся блесна", "Стример", "Воблер suspending"]
+    },
+    "groundbait_rules": {
+      "cold": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" },
+      "warm": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "schema": "fishforecast.config/1",
+  "updatedAt": "2026-10-28T09:00:00Z",
+  "catalogUrl": "https://raw.githubusercontent.com/chelowek054-lgtm/FishingData/main/species/initial_fish.json",
+  "knowledgeUrls": {
+    "ru": "https://raw.githubusercontent.com/chelowek054-lgtm/FishingData/main/knowledge/knowledge.json",
+    "en": "https://raw.githubusercontent.com/chelowek054-lgtm/FishingData/main/knowledge/knowledge_en.json"
+  },
+  "apiBaseUrl": "",
+  "isDataCollect": false,
+  "minAppVersion": "1.0.0"
+}

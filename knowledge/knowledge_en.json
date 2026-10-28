@@ -1,0 +1,323 @@
+{
+  "schema": "timetofish.knowledge-l10n/1",
+  "language": "en",
+  "waterbodies": {
+    "still_small": {
+      "name": "Pond, small lake",
+      "notes": "A small volume of water warms and cools fastest. At night plants breathe instead of giving off oxygen, so it is lowest just before dawn: in an overgrown pond the water is oversaturated by evening and drops below two milligrams per litre before sunrise."
+    },
+    "still_large": {
+      "name": "Large lake, reservoir",
+      "notes": "Inert: it barely changes over a day, but the wind has room to build waves and mixing is serious."
+    },
+    "flowing_small": {
+      "name": "Small river, stream",
+      "notes": "The current aerates the water by itself and feeds it from above: daily swings are smoothed out and oxygen is enough even in the heat."
+    },
+    "flowing_large": {
+      "name": "River",
+      "notes": "The steadiest water body: temperature and oxygen change slowly, but the bottom relief and the current seams decide everything."
+    },
+    "sea": {
+      "name": "Sea",
+      "notes": "The coefficients are tuned for the coastal strip within casting range from the shore: open water warms and cools more slowly than a river, the surf aerates it almost to the limit, and there is no stratification at this depth — it lies further out, beyond a shore cast. Tide, salinity and currents are not modelled: for the Baltic without pronounced tides that is not critical, but for seas with a strong tide or surge the shallows estimate will be rougher."
+    },
+    "ocean": {
+      "name": "Ocean",
+      "notes": "The value is declared but its behaviour is not described."
+    }
+  },
+  "structures": {
+    "snags": {
+      "name": "Snags, sunken trunks",
+      "notes": "Works like an artificial reef: crayfish, larvae and fry live in the snags and a predator follows them.",
+      "gear_note": "Never let a fish run into the snag: the drag is locked and rods sit on stands. 0.40–0.45 mm mono, 0.60–0.70 mm shock leader and a forged thick-wire hook are about abrasion, not the weight of the fish."
+    },
+    "bridge_piles": {
+      "name": "Jetty piles",
+      "notes": "The same snag, only man-made: shade, fouling and constant food."
+    },
+    "undercut_bank": {
+      "name": "Undercut bank",
+      "notes": "Overhanging turf and exposed roots give shade, coolness and a constant fall of insects into the water."
+    },
+    "point": {
+      "name": "Point, headland",
+      "notes": "Feeding currents meet from both sides, and a predator patrols both flanks at once."
+    },
+    "bay": {
+      "name": "Backwater, bay",
+      "notes": "Calm water with plankton and turbidity: the dining room of bream, crucian and roach."
+    },
+    "steep_bank": {
+      "name": "Steep bank",
+      "notes": "A sign that the drop-off and depth start right from the shore."
+    },
+    "drop_off": {
+      "name": "Drop-off, edge",
+      "notes": "The boundary between depths: the path fish take to come out and feed and to leave and wait it out."
+    },
+    "gravel_silt_edge": {
+      "name": "Gravel and silt edge",
+      "notes": "The transition from hard bottom to soft: bloodworm live in the silt and are easy to take from the gravel. Carp follow such an edge like a drop-off.",
+      "gear_note": "In deep silt the rig sinks: a 30–40 cm hooklink and a neutrally buoyant bait (pop-up or wafter) keep it visible."
+    },
+    "flooded_channel": {
+      "name": "Flooded channel",
+      "notes": "An old river bed under a reservoir is a ready-made road: fish travel along it, not across. Depths of 4–12 m, with flooded forest and snags nearby."
+    },
+    "shell_bed": {
+      "name": "Shell bed",
+      "notes": "A zebra mussel colony is a permanent table and hard bottom: food lies in the open instead of sinking into silt."
+    },
+    "hump": {
+      "name": "Hump, underwater rise",
+      "notes": "A local rise of the bottom: a predator stands on it above its prey and strikes from above."
+    },
+    "inflow": {
+      "name": "Inflow, feeding stream",
+      "notes": "Brings food and oxygen and washes up a cone of bottom sediment."
+    },
+    "outflow": {
+      "name": "Outflow, draining channel",
+      "notes": "The current draws fry out of the lake, and pike and zander wait in this funnel."
+    },
+    "spring": {
+      "name": "Bottom spring",
+      "notes": "A local thermoregulator: in heat and in frost fish gather around the spring outlet."
+    },
+    "reeds": {
+      "name": "Reeds, weed edge",
+      "notes": "Shelter and food base at once: fry have somewhere to hide and peaceful fish have something to eat."
+    },
+    "foam_line": {
+      "name": "Foam and duckweed in the downwind corner",
+      "notes": "The wind drives plankton and insects here, and the duckweed film gives shade."
+    },
+    "windward_shore": {
+      "name": "Windward shore, surf",
+      "notes": "Waves wash larvae out of the shore and bottom and saturate the water with oxygen. A wind in the face is awkward for the angler and good for the fish."
+    },
+    "slack_water": {
+      "name": "Slack water, eddy behind an island",
+      "notes": "In a current fish stand where they do not have to row: behind an island, in an eddy, at the edge of a snag pile. Food is carried past and no energy is spent.",
+      "gear_note": "Hold the spot in the flow: a flat lead of 150–200 g, a rear weight presses the line to the bottom — otherwise the rig drifts and collects debris."
+    },
+    "rotten_silt": {
+      "name": "Rotten silt, rainbow film",
+      "notes": "Gas bubbles and oily streaks betray decay: there is no oxygen here and the fish leave."
+    },
+    "water": {
+      "name": "Plain water",
+      "notes": "An ordinary stretch of water: outlined, but nothing stands out."
+    },
+    "shore": {
+      "name": "Shore, access",
+      "notes": "A place where you can stand and approach the water."
+    },
+    "beach": {
+      "name": "Beach, sandy shore",
+      "notes": "A sandy bottom feeds burrowing worms and small crustaceans — a table for flounder and cod patrolling the surf line."
+    },
+    "rocky_shore": {
+      "name": "Rocky shore, boulders",
+      "notes": "Stones and weed hold crabs and small fish: a predator works the ridge like a snag pile in fresh water."
+    },
+    "jetty_pier": {
+      "name": "Jetty, pier",
+      "notes": "Piles and the jetty wall are fouled with mussels and weed, give shade and break the current — fish hold right at the wall."
+    },
+    "river_mouth": {
+      "name": "River mouth",
+      "notes": "Fresh runoff carries food out to sea; migratory fish — sea trout, salmon — hold at the boundary of fresh and salt water before entering the river."
+    },
+    "lagoon": {
+      "name": "Lagoon, shallow bay",
+      "notes": "Warmed shallows behind a spit without waves: a feeding ground for juveniles and flounder."
+    }
+  },
+  "observations": {
+    "bait_fish_panic": {
+      "name": "Splashes and panicking fry",
+      "notes": "Rings and chaotic jumps of fry: a direct sign of perch, pike or asp striking."
+    },
+    "birds_diving": {
+      "name": "Birds diving over the water",
+      "notes": "Gulls and terns dive where a predator has pushed fry up to the surface."
+    },
+    "fish_rolling": {
+      "name": "Fish rolling on the surface",
+      "notes": "Peaceful fish come to the surface: they are here and they are feeding."
+    },
+    "foam_ryaska": {
+      "name": "Foam and duckweed blown in",
+      "notes": "The wind has gathered plankton and insects in a corner, and there is shade under the film."
+    },
+    "rainbow_film": {
+      "name": "Rainbow film, gas bubbles",
+      "notes": "Rotting silt: there is no oxygen and the fish have left."
+    },
+    "wind_turned": {
+      "name": "Wind has turned",
+      "notes": "A front has passed over the water: food has been carried to the other shore and the fish must find a table again. The bite returns when the new wind settles."
+    },
+    "north_wind": {
+      "name": "North wind picked up",
+      "notes": "Cold air chills the top layer. In cold water that is against the angler; in overheated water, on the contrary, it knocks down the heat and adds oxygen."
+    },
+    "calm_heat": {
+      "name": "Calm in the heat, second day",
+      "notes": "There is nothing to mix the column, and the water has stratified: warm top, cold bottom, a thermocline between them. Fish leave the top layer but do not go to the pit either — there is nothing to breathe there."
+    },
+    "warm_spell": {
+      "name": "Warmer after the cold",
+      "notes": "A few warm days lift cold water by a couple of degrees and the fish come out to feed. In spring such a trend matters more than the temperature itself."
+    },
+    "muddy_water": {
+      "name": "Water muddied after rain",
+      "notes": "Rain wash knocks fish off their usual places; peaceful fish tolerate turbidity better than predators."
+    }
+  },
+  "methods": {
+    "feeder_flat": {
+      "name": "Feeder, flat method",
+      "notes": "The bait lies on the feeder at the bottom. It works when fish feed from the bottom and is useless when they are in mid-water.",
+      "rig": "A short hooklink of 8–12 cm: the bait lies right against the feed, otherwise the fish take the feeder rather than the hook."
+    },
+    "carp_bottom": {
+      "name": "Carp bottom rig",
+      "notes": "A hair rig on the bottom with spot baiting. It needs an understanding of the bottom: without probing it is a lottery.",
+      "rig": "Simpler is more reliable: coated hooklink stripped 1.5–2 cm at the hook, Wide Gape or Curved Shank hook, hair 1–1.5 cm from the bend. It is not the hand that sets the hook but a 100–140 g lead; a safety clip drops it on a break-off and the fish leaves without a weight on the line."
+    },
+    "float": {
+      "name": "Float tackle",
+      "notes": "The only bottom tackle where the depth is easy to change: the setting changes in a minute."
+    },
+    "zig_rig": {
+      "name": "Zig rig, fishing in mid-water",
+      "notes": "The bait hangs half-way down. It is how you take carp that cruise above the bottom and ignore the feeder.",
+      "rig": "A long hooklink from the lead to a floating bait: the depth is measured from the bottom, not from the surface."
+    },
+    "surface": {
+      "name": "Surface fishing",
+      "notes": "Crust, floating pellets, dog biscuits. A summer evening and warm water are its time.",
+      "rig": "A controller or clear float 40–60 cm from the bait: it gives the cast and does not scare fish near the surface."
+    },
+    "spinning": {
+      "name": "Spinning, artificial lure",
+      "notes": "A search for active fish: you cover the water, not a spot."
+    },
+    "jig": {
+      "name": "Jigging on the bottom",
+      "notes": "A stepped retrieve along drop-offs and snags when the predator stands low."
+    },
+    "livebait": {
+      "name": "Livebait",
+      "notes": "Works on passive fish when they ignore an artificial lure."
+    },
+    "bottom_bait_sea": {
+      "name": "Bottom rod from the shore",
+      "notes": "Static tackle with a bait on the bottom: flounder and cod take from the beach bottom or at a jetty without chasing a lure.",
+      "rig": "A beachcaster or sliding rig with a pear lead of 80 g or more to hold against the surf; hooklink 30–50 cm."
+    },
+    "float_sea_top": {
+      "name": "Float for a top predator",
+      "notes": "Garfish take right at the surface while chasing fry: the tackle holds the bait in the top layer, not on the bottom.",
+      "rig": "A sliding float set to the top layer, a strip of fish or a fry on the rig."
+    }
+  },
+  "baiting_plans": {
+    "spot": {
+      "name": "Spot baiting",
+      "notes": "A dozen boilies and a PVA bag right at the bait. In cold water and on a pressured water a big spread alarms rather than gathers: the fish eat little and inspect every spot.",
+      "bait_size_mm": "14–20 mm"
+    },
+    "carpet": {
+      "name": "Carpet of small particles",
+      "notes": "Hemp, small pellets, crushed boilies. Small and medium carp move in shoals and feed in competition — the carpet stokes that competition and bites come one after another.",
+      "bait_size_mm": "14–18 mm"
+    },
+    "line": {
+      "name": "Baiting line",
+      "notes": "A strip of boilies 100–200 m long from a boat or a bait rocket across the fish's route. On big water a spot means nothing: the line intercepts the shoal where it travels.",
+      "bait_size_mm": "20–24 mm"
+    },
+    "program": {
+      "name": "Long programme, ALT",
+      "notes": "Feed a sector for several days in a row and do not fish. The herd stops linking boilies with danger and includes the spot in its daily route — then big fish sit on it rather than youngsters.",
+      "bait_size_mm": "28–35 mm or two of 24"
+    }
+  },
+  "lure_types": {
+    "soft_jig": {
+      "name": "Soft bait on a jig head",
+      "notes": "An all-rounder for cold and deep water: you set the speed of presentation."
+    },
+    "spinner": {
+      "name": "Spinner",
+      "notes": "A strong signal in turbid water and on the shallows; often excessive for passive fish."
+    },
+    "spoon": {
+      "name": "Spoon",
+      "notes": "Slow play on the pauses is what cold water needs."
+    },
+    "crank": {
+      "name": "Crankbait",
+      "notes": "Holds the depth: handy when you know at what depth the fish stand."
+    },
+    "popper": {
+      "name": "Surface lure",
+      "notes": "Warm water and low light: a strike at the surface can be heard and seen."
+    },
+    "jerk": {
+      "name": "Jerkbait, large minnow",
+      "notes": "A large lure screens out small fish and takes trophy fish."
+    }
+  },
+  "lure_guides": {
+    "clear_bright": {
+      "notes": "In clear water in bright light the fish see the whole lure — naturalness and speed save the day.",
+      "colors": [
+        "natural: roach, perch",
+        "transparent with glitter"
+      ],
+      "size": "smaller than usual",
+      "action": "fast, jerky"
+    },
+    "clear_low": {
+      "notes": "At dawn and dusk a predator strikes the silhouette from below — dark reads better than bright.",
+      "colors": [
+        "natural dark",
+        "dark silhouette: black, dark green"
+      ],
+      "size": "usual",
+      "action": "even, with pauses"
+    },
+    "stained_any": {
+      "notes": "In turbid water the lure is found by the lateral line, not the eyes: it needs sound and a noticeable colour.",
+      "colors": [
+        "acid: chartreuse, orange",
+        "with a contrast spot"
+      ],
+      "size": "larger than usual",
+      "action": "with strong vibration"
+    },
+    "dark_night": {
+      "notes": "At night the silhouette against the sky and vibration work, not the colouring.",
+      "colors": [
+        "black",
+        "dark purple"
+      ],
+      "size": "larger than usual",
+      "action": "slow, noisy"
+    },
+    "cold_water": {
+      "notes": "In cold water a predator does not chase: the lure must be retrieved slowly and left to hang.",
+      "colors": [
+        "natural pale"
+      ],
+      "size": "smaller than usual",
+      "action": "slow, with long pauses"
+    }
+  }
+}

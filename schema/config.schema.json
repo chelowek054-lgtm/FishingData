@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fishforecast.config/1",
+  "title": "Конфигурация приложения «Пора на рыбалку»",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "updatedAt"
+  ],
+  "properties": {
+    "schema": {
+      "const": "fishforecast.config/1"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Когда файл менялся, ISO-8601 UTC. Этим помечаются собранные данные."
+    },
+    "catalogUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Ссылка на справочник видов."
+    },
+    "knowledgeUrls": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "format": "uri"
+      },
+      "description": "Словари знаний по языкам."
+    },
+    "apiBaseUrl": {
+      "type": "string",
+      "description": "Куда отдавать выезды. Пусто — некуда, данные копятся на устройстве."
+    },
+    "isDataCollect": {
+      "type": "boolean",
+      "default": false,
+      "description": "Собирать ли данные выездов. Не отменяет согласие рыболова."
+    },
+    "minAppVersion": {
+      "type": "string",
+      "description": "Ниже этой версии конфиг не применяется."
+    }
+  }
+}
