@@ -26,7 +26,7 @@
         }
       }
     },
-    "axes": { "thermal_guild": "WARM", "trophic": "OMNIVORE", "sense": "CHEMO", "diel": "DAY", "habitat": "LENTIC", "winter": "LOW" },
+    "axes": { "thermal_guild": "WARM", "trophic": "OMNIVORE", "sense": "CHEMO", "diel": "CREPUSCULAR", "habitat": "LENTIC", "winter": "LOW" },
     "name": "Карп / Сазан",
     "description": "Две разные рыбы под одним именем. Мелкий и средний карп ходит плотной стаей, кормится наперегонки и хватает первым; крупный держится одиночкой или малой группой, ходит своим суточным маршрутом и осматривает точку прежде, чем сесть за неё. От того, за кем едешь, зависит и размер насадки, и схема закорма. Чудо-аромата у карпа нет: запах — только метка. Если за ней не стоит пищевая ценность, рыба быстро связывает этот запах с опасностью и обходит его.",
     "temp": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "axes": { "thermal_guild": "WARM", "trophic": "OMNIVORE", "sense": "CHEMO", "diel": "DAY", "habitat": "LENTIC", "winter": "TORPID" },
+    "axes": { "thermal_guild": "WARM", "trophic": "OMNIVORE", "sense": "CHEMO", "diel": "CREPUSCULAR", "habitat": "LENTIC", "winter": "TORPID" },
     "name": "Карась",
     "temp": {
       "opt_min": 16.0,
@@ -350,18 +350,18 @@
     },
     "groundbait_rules": {
       "cold": {
-        "volume": "low",
-        "fraction": "fine",
+        "volume": "none",
+        "fraction": "none",
         "sweetness": "none",
-        "flavor_profile": "blood_fishmeal",
-        "notes": "Грунт с кормовым мотылем и сухой кровью/рыбной мукой"
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
       },
       "warm": {
-        "volume": "low",
-        "fraction": "fine",
+        "volume": "none",
+        "fraction": "none",
         "sweetness": "none",
-        "flavor_profile": "fishmeal",
-        "notes": "Создание мути с рубленым червем или опарышем; растительная кормежка не используется"
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
       }
     }
   },
@@ -390,7 +390,7 @@
         }
       }
     },
-    "axes": { "thermal_guild": "COOL", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "DAY", "habitat": "LENTIC", "winter": "ACTIVE" },
+    "axes": { "thermal_guild": "COOL", "trophic": "PREDATOR", "sense": "VISUAL", "diel": "CREPUSCULAR", "habitat": "LENTIC", "winter": "ACTIVE" },
     "name": "Щука",
     "temp": {
       "opt_min": 14.0,
@@ -641,11 +641,11 @@
         "notes": "Прикормка не применяется"
       },
       "warm": {
-        "volume": "low",
-        "fraction": "coarse",
+        "volume": "none",
+        "fraction": "none",
         "sweetness": "none",
-        "flavor_profile": "liver_smell",
-        "notes": "Прикармливание квоком и ароматическими клейкими кормушками (рубленая потроша/кровь)"
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
       }
     }
   },
@@ -701,18 +701,18 @@
     },
     "groundbait_rules": {
       "cold": {
-        "volume": "low",
-        "fraction": "coarse",
+        "volume": "none",
+        "fraction": "none",
         "sweetness": "none",
-        "flavor_profile": "fish_blood",
-        "notes": "Кормушки с фаршем из свежей рыбы или сухой кровью у дна в холодную погоду"
+        "flavor_profile": "none",
+        "notes": "Прикормка не применяется"
       },
       "warm": {
         "volume": "none",
         "fraction": "none",
         "sweetness": "none",
         "flavor_profile": "none",
-        "notes": "Рыба неактивна"
+        "notes": "Прикормка не применяется"
       }
     }
   },
