@@ -749,7 +749,7 @@
     "default_horizon": "bottom",
     "cold_temp_threshold": 5.0,
     "season": { "spawn_temp_min": 2.0, "spawn_temp_max": 6.0, "feed_start_c": 4.0, "post_spawn_recovery_days": 10 },
-    "guild": "predator",
+    "guild": "peaceful",
     "light_activity": { "night": 0.9, "dawn": 0.85, "morning": 0.4, "day": 0.3, "evening": 0.7, "dusk": 0.85 },
     "preferred_structures": ["beach", "lagoon", "river_mouth"],
     "baits": {
