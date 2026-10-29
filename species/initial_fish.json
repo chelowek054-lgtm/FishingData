@@ -723,10 +723,12 @@
       "en": {
         "baits": {
           "cold": [
+            "Unpeeled shrimp",
             "Sea worm (ragworm)",
             "Mussel"
           ],
           "warm": [
+            "Unpeeled shrimp",
             "Sea worm (ragworm)",
             "Mussel",
             "Piece of squid",
@@ -748,11 +750,11 @@
     "cold_temp_threshold": 5.0,
     "season": { "spawn_temp_min": 2.0, "spawn_temp_max": 6.0, "feed_start_c": 4.0, "post_spawn_recovery_days": 10 },
     "guild": "predator",
-    "light_activity": { "night": 0.3, "dawn": 0.8, "morning": 0.7, "day": 0.7, "evening": 0.8, "dusk": 0.8 },
+    "light_activity": { "night": 0.9, "dawn": 0.85, "morning": 0.4, "day": 0.3, "evening": 0.7, "dusk": 0.85 },
     "preferred_structures": ["beach", "lagoon", "river_mouth"],
     "baits": {
-      "cold": ["Морской червь (нереис)", "Мидия"],
-      "warm": ["Морской червь (нереис)", "Мидия", "Кусочек кальмара", "Резаная рыбка"]
+      "cold": ["Креветка (нечищеная)", "Морской червь (нереис)", "Мидия"],
+      "warm": ["Креветка (нечищеная)", "Морской червь (нереис)", "Мидия", "Кусочек кальмара", "Резаная рыбка"]
     },
     "groundbait_rules": {
       "cold": { "volume": "none", "fraction": "none", "sweetness": "none", "flavor_profile": "none", "notes": "Прикормка не применяется" },
